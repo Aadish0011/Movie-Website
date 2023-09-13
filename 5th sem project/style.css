@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Black Ops One', cursive;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 0 50px;
+    height: 100%;
+}
+
+.logo-container {
+    flex: 1;
+    background-color: brown;
+}
+
+.menu-container {
+    flex: 1;
+    background-color: bisque;
+}
+
+.profile-container {
+    flex: 1;
+    background-color: cadetblue;
+}
+
+.sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
